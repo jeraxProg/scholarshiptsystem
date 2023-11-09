@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+    background-color: #628E91;
+    text-decoration: none;
+    list-style: none;
+}
+.logo {
+    display: flex;
+    margin: 10px 10px; 
+}
+
+.logo > img{
+    width: 50px;
+    height: 50px;
+}
+
+ .header-image{
+    width: 100%;
+    height: 83vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.632), 
+        rgba(0, 0, 0, 0.688)
+      ), url(./assets/bulacanpic.png);
+    background-size: cover;
+    background-position: center;
+    
+} 
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: transparent;
+
+   
+  }
+  .title > h2 {
+    background-color: transparent;
+    text-align: center;
+    font-size: 50px;
+   
+  }
+  .title > p {
+    background-color: transparent;
+    text-align: center;
+    font-size: 45px;
+    margin: 30px auto;
+  }
+  .title > h4 {
+    background-color: transparent;
+    text-align: center;
+    font-size: 30px;
+
+  }
+
+  .buttons {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: transparent;
+    display: flex;
+  }
+
+
+  .buttons > button {
+    background-color: rgba(128, 128, 128, 0.345);
+    margin: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .buttons > button:hover {
+    background-color:rgb(128, 128, 128) ;
+  }
+
+  .menu {
+    display: flex;
+    margin: 30px;
+    text-align: center;
+    color: white;
+    align-items: center;
+  }
+  .menu > div {
+    padding: 30px;
+  }
+
+  #flex-about {
+    flex: 30%;
+    margin-right: 50px;    
+  }
+
+  #flex-contact {
+    flex: 30%;
+   
+   
+  }
+
+  #flex-social {
+    flex: 40%;
+    border-left: 1px solid;
+  }
+
+
+  #flex-about > a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #flex-about > a:hover {
+    color: black;
+  }
+
+ 
+
+  #flex-contact > a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #flex-contact > a:hover {
+    color: black;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 50px;
+ 
+
+  }
+
+  footer {
+    text-align: center;
+    color: white;
+  }
+
+
+
+
